@@ -1,0 +1,17 @@
+while True:
+    # запрос ввода пользователем
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    op = input("Введите оператор (+, -, *, /): ")
+
+    # выполнение операции
+    if op == "+":
+        result = num1 + num2
+    elif op == "-":
+        result = num1 - num2
+    elif op == "*":
+        result = num1 * num2
+    elif op == "/":
+        result = num1 / num2
+    else:
+        print("Неверный 
